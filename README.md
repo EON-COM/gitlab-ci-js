@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=blue)](https://opensource.org/licenses/MIT)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/EON-COM/gitlab-ci-js.svg?color=blue)
-[![](https://images.microbadger.com/badges/image/eoncom/gitlab-ci-js.svg)](https://microbadger.com/images/eoncom/gitlab-ci-go "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/eoncom/gitlab-ci-js.svg)](https://microbadger.com/images/eoncom/gitlab-ci-js "Get your own image badge on microbadger.com")
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-js:0.1` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
+[`gitlab-ci-js:0.1` `gitlab-ci-js:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-js/blob/master/Dockerfile)
 
 # Quick reference
 
@@ -28,15 +28,8 @@
 # What is gitlab-ci-js?
 
 This is the image that the internal gitlab-ci uses to build the js files
-:
+
 ### Tools installed inside the image
-- go-1.11
-- curl
-- git
-- bash
-- taskfile
-- golangci-lint
-- libc-dev
 - docker
 
 # License
