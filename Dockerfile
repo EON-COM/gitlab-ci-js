@@ -1,5 +1,5 @@
-FROM alpine:3.12
-LABEL version="0.3" \
+FROM node:14.16.1-alpine
+LABEL version="0.4" \
     purpose=ci
 RUN apk update && apk upgrade --no-cache && apk add --no-cache \
     curl    \
